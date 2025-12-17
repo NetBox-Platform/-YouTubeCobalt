@@ -1,4 +1,4 @@
-package com.ycngmn.notubetv.ui
+package com.youtube.tv.ui
 
 import android.content.Context
 import android.content.Intent

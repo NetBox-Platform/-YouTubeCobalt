@@ -1,8 +1,8 @@
-package com.ycngmn.notubetv.ui
+package com.youtube.tv.ui
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import com.ycngmn.notubetv.utils.ReleaseData
+import com.youtube.tv.utils.ReleaseData
 
 class YoutubeVM : ViewModel() {
     private val _scriptData = mutableStateOf<String?>(null)

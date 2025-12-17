@@ -1,4 +1,4 @@
-package com.ycngmn.notubetv.ui.components
+package com.youtube.tv.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -30,7 +30,7 @@ import androidx.tv.material3.ButtonDefaults
 import androidx.tv.material3.Surface
 import androidx.tv.material3.Text
 import com.multiplatform.webview.web.WebViewNavigator
-import com.ycngmn.notubetv.utils.ReleaseData
+import com.youtube.tv.utils.ReleaseData
 import kotlinx.coroutines.launch
 
 @Composable

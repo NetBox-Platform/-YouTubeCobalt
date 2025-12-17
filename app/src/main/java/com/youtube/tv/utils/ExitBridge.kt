@@ -1,4 +1,4 @@
-package com.ycngmn.notubetv.utils
+package com.youtube.tv.utils
 
 import android.webkit.JavascriptInterface
 import androidx.compose.runtime.MutableState

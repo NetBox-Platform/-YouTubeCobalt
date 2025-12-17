@@ -1,4 +1,4 @@
-package com.ycngmn.notubetv.ui.screens
+package com.youtube.tv.ui.screens
 
 import android.app.Activity
 import android.view.View
@@ -17,15 +17,15 @@ import com.multiplatform.webview.web.LoadingState
 import com.multiplatform.webview.web.WebView
 import com.multiplatform.webview.web.rememberWebViewNavigator
 import com.multiplatform.webview.web.rememberWebViewState
-import com.ycngmn.notubetv.R
-import com.ycngmn.notubetv.ui.YoutubeVM
-import com.ycngmn.notubetv.ui.components.UpdateDialog
-import com.ycngmn.notubetv.utils.ExitBridge
-import com.ycngmn.notubetv.utils.NetworkBridge
-import com.ycngmn.notubetv.utils.fetchScripts
-import com.ycngmn.notubetv.utils.getUpdate
-import com.ycngmn.notubetv.utils.permHandler
-import com.ycngmn.notubetv.utils.readRaw
+import com.youtube.tv.R
+import com.youtube.tv.ui.YoutubeVM
+import com.youtube.tv.ui.components.UpdateDialog
+import com.youtube.tv.utils.ExitBridge
+import com.youtube.tv.utils.NetworkBridge
+import com.youtube.tv.utils.fetchScripts
+import com.youtube.tv.utils.getUpdate
+import com.youtube.tv.utils.permHandler
+import com.youtube.tv.utils.readRaw
 
 @Composable
 fun YoutubeWV(youtubeVM: YoutubeVM = viewModel()) {

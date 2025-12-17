@@ -1,4 +1,4 @@
-package com.ycngmn.notubetv.utils
+package com.youtube.tv.utils
 
 import android.content.Context
 import android.content.pm.PackageManager

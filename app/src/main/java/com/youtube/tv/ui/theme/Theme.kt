@@ -1,4 +1,4 @@
-package com.ycngmn.notubetv.ui.theme
+package com.youtube.tv.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable

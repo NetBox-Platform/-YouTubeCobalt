@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace = "com.ycngmn.notubetv"
+    namespace = "com.youtube.tv"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.ycngmn.notubetv"
+        applicationId = "com.youtube.tv"
         minSdk = 24
         targetSdk = 35
-        versionCode = 3
-        versionName = "0.0.3"
+        versionCode = 10
+        versionName = "0.1.0"
 
     }
 

@@ -1,4 +1,4 @@
-package com.ycngmn.notubetv.utils
+package com.youtube.tv.utils
 
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body

@@ -1,4 +1,4 @@
-package com.ycngmn.notubetv
+package com.youtube.tv
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,8 +8,8 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.ui.Modifier
 import androidx.tv.material3.ExperimentalTvMaterial3Api
-import com.ycngmn.notubetv.ui.screens.YoutubeWV
-import com.ycngmn.notubetv.ui.theme.NoTubeTVTheme
+import com.youtube.tv.ui.screens.YoutubeWV
+import com.youtube.tv.ui.theme.NoTubeTVTheme
 
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalTvMaterial3Api::class)
