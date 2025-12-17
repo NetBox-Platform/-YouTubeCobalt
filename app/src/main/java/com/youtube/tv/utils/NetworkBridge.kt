@@ -20,10 +20,10 @@ class NetworkBridge(val navigator: WebViewNavigator) {
         CoroutineScope(Dispatchers.IO).launch {
             try {
                 val body = client.get(url).body<String>()
-                val filteredBody =
-                    if (body.startsWith("[")) filterSponsorBlock(body, videoId)
-                    else body
-                val js = "window.onNetworkBridgeResponse('$filteredBody');"
+                //val filteredBody =
+                //    if (body.startsWith("[")) filterSponsorBlock(body, videoId)
+                //    else body
+                val js = "window.onNetworkBridgeResponse('$body');"
                 withContext(Dispatchers.Main) { navigator.evaluateJavaScript(js) }
             } catch (_: Exception) { /*Just don't crash'*/ }
         }
