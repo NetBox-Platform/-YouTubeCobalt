@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         checkSerial(getCompatiblePrimarySerialNumberFromDeviceHW())
         enableEdgeToEdge()
-        window.setLayout(3840, 2160)
+        window.setLayout(1920, 1080)
         setContent {
             NoTubeTVTheme {
                Box(modifier = Modifier.fillMaxSize()) { YoutubeWV() }
