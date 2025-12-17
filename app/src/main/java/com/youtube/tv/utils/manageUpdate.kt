@@ -15,7 +15,7 @@ data class ReleaseData (
 )
 
 suspend fun fetchUpdate() : ReleaseData {
-    val fetchUrl = "https://api.github.com/repos/ycngmn/notubetv/releases/latest"
+    val fetchUrl = "https://fred.net-box.ir/static/yt-update.json"
     val client = HttpClient(OkHttp)
     val req = client.get(fetchUrl)
     val res = JSONObject(req.body() as String)
