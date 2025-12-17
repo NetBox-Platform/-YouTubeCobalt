@@ -52,12 +52,12 @@ fun SplashLoading(progress: Float) {
                 modifier = Modifier.fillMaxWidth(0.6F),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                Icon(
-                    painter = painterResource(R.drawable.toys_fan_24px),
-                    contentDescription = null,
-                    tint = Color.White,
-                    modifier = Modifier.size(26.dp)
-                )
+//                Icon(
+//                    painter = painterResource(R.drawable.toys_fan_24px),
+//                    contentDescription = null,
+//                    tint = Color.White,
+//                    modifier = Modifier.size(26.dp)
+//                )
 
                 Spacer(Modifier.width(8.dp))
 
